@@ -2,13 +2,32 @@
 //
 
 #include <iostream>
-#include <string>
+#include "Test.hpp";
 
 using namespace std;
 
 int main()
 {
-    cout << "Hello World!\n" << endl;
+    int tableau[5];
+
+    AfficheMessage("Coucou");
+
+    cout << "Nous allons additionner deux nombres ! Entrez en un premier :" << endl;
+    double a(0), b(0), c(0);
+    cin >> a;
+    cout << "Entrez le deuxième nombre :" << endl;
+    cin >> b;
+
+    const double result = a + b;
+    cout << "Le résultat de l'addition est : " << result << endl;
+
+    cout << "Multiplions ce résultat par un nombre :" << endl;
+    cin >> c;
+
+    const double mult = result * c;
+    cout << "Le résultat de la multiplication est : " << mult << endl;
+
+    /*cout << "Hello World!\n" << endl;
     cout << "I learn C++" << endl;
 
     int age(32);
@@ -33,7 +52,7 @@ int main()
     cout << "Quel est votre nom ?" << endl;
     getline(cin, name);
 
-    cout << name << " est votre nom.";
+    cout << name << " est votre nom.";*/
 
     return 0;
 }

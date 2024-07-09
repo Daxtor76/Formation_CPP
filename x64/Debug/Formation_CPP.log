@@ -1,0 +1,6 @@
+﻿  Formation_CPP.cpp
+C:\Formation\Formation_CPP\Formation_CPP.cpp(6,10): warning C4067: jetons inattendus après la directive du préprocesseur - saut de ligne attendu
+  Test.cpp
+C:\Formation\Formation_CPP\Test.cpp(1,10): warning C4067: jetons inattendus après la directive du préprocesseur - saut de ligne attendu
+  Génération de code en cours...
+  Formation_CPP.vcxproj -> C:\Formation\Formation_CPP\x64\Debug\Formation_CPP.exe
